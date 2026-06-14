@@ -1,9 +1,505 @@
-<h1>Machine Learning Portfolio</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gyan Kannur — ML Engineer | Generative AI &amp; MLOps</title>
+  <meta name="description" content="Gyan Kannur — Machine Learning Engineer specializing in Generative AI, RAG, Agentic AI and MLOps. 19+ years of software engineering experience." />
+  <link rel="icon" href="assets/img/profile.jpg" type="image/jpeg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">
+        <span class="mark">GK</span>
+        <span>Gyan Kannur</span>
+      </a>
 
-<h2>Projects</h2>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
 
-<ul>
-<li><a href="https://github.com/rajukan/ml-capstones/blob/main/bigmart/Big-mart-sales-prediction.ipynb">BigMart Sales Prediction</a></li>
-<li><a href="https://github.com/rajukan/ml-capstones/blob/main/diabetes-ensemble/gyan-capstone-1-ensembles.ipynb">Diabetes Ensemble Model</a></li>
-<li><a href="https://github.com/rajukan/ml-capstones/blob/main/heart-prediction-explainability/dsc-680-heart_disease_prediction.ipynb">Heart Disease Explainability</a></li>
-</ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle color theme">
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="eyebrow">ML Engineer &middot; Generative AI &middot; MLOps</p>
+          <h1>Hi, I'm <span class="grad">Gyan Kannur</span><br />building intelligent systems that ship.</h1>
+          <p class="lead">
+            19 years of software engineering experience, including 5+ years specializing in Machine Learning,
+            Generative AI, and MLOps — designing and deploying production-grade RAG pipelines, agentic AI
+            frameworks, and scalable ML systems on AWS.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              View Projects
+            </a>
+            <a href="assets/resume/Gyan_Machine_learning_Resume.docx" class="btn btn-ghost" download>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download Résumé
+            </a>
+          </div>
+          <div class="social-row">
+            <a class="social-btn" href="https://github.com/rajukan" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.9.57.1.78-.25.78-.55v-2.1c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.29-1.68-1.29-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.2 1.78 1.2 1.04 1.77 2.72 1.26 3.38.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.58.23 2.75.11 3.04.74.8 1.18 1.83 1.18 3.08 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.08.78 2.18v3.24c0 .3.21.66.79.55A11.5 11.5 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5z"/></svg>
+            </a>
+            <a class="social-btn" href="https://www.linkedin.com/in/gyan-kannur-0476505/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+            </a>
+            <a class="social-btn" href="mailto:gyan.raju@gmail.com" aria-label="Email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <div class="ring">
+            <img src="assets/img/profile.jpg" alt="Portrait of Gyan Kannur" />
+          </div>
+          <div class="badge b1">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            Generative AI &amp; RAG
+          </div>
+          <div class="badge b2">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            AWS &amp; MLOps
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-cue"><span>Scroll</span><span class="line"></span></div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">About Me</span>
+          <h2>Engineering ML &amp; AI systems for the enterprise</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I'm a Machine Learning Engineer with 19 years of overall software engineering experience, the last
+              5+ years focused on Machine Learning, Generative AI, and MLOps. I specialize in the end-to-end ML
+              lifecycle — from pipeline integration and design reviews to production deployment and operational
+              support in enterprise-grade environments.
+            </p>
+            <p>
+              My recent work centers on architecting and deploying large language model (LLM) solutions in
+              production, including retrieval-augmented generation (RAG) pipelines, agentic AI frameworks,
+              fine-tuned domain-specific models, LLM-as-judge evaluation rubrics, and inference served through
+              Amazon Bedrock.
+            </p>
+            <p>
+              I have extensive experience designing and maintaining end-to-end ML pipelines (MLOps) — data
+              ingestion, model training, model serving, monitoring, and automated retraining — along with strong
+              expertise in Bayesian linear regression for financial domain use cases, and model interpretability
+              with SHAP and LIME for transparent, auditable systems.
+            </p>
+          </div>
+
+          <div class="stats-grid reveal">
+            <div class="stat-card">
+              <div class="num">19+</div>
+              <div class="label">Years in Software Engineering</div>
+            </div>
+            <div class="stat-card">
+              <div class="num">5+</div>
+              <div class="label">Years in ML, GenAI &amp; MLOps</div>
+            </div>
+            <div class="stat-card">
+              <div class="num">AWS</div>
+              <div class="label">SageMaker, Bedrock, ECS, Lambda</div>
+            </div>
+            <div class="stat-card">
+              <div class="num">2026</div>
+              <div class="label">MS in ML &amp; Data Science (in progress)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Skills</span>
+          <h2>Technical Toolbox</h2>
+          <p>A blend of machine learning, generative AI, and cloud-native MLOps expertise.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3>Languages &amp; SDKs</h3>
+            <div class="tag-list">
+              <span class="tag">Python</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">Java</span>
+              <span class="tag">Smart SDK</span>
+              <span class="tag">MCP SDK</span>
+              <span class="tag">RAG SDK</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 2v10l8 4"/></svg>
+            </div>
+            <h3>ML / DL Frameworks</h3>
+            <div class="tag-list">
+              <span class="tag">TensorFlow</span>
+              <span class="tag">PyTorch</span>
+              <span class="tag">scikit-learn</span>
+              <span class="tag">Keras</span>
+              <span class="tag">LangGraph</span>
+              <span class="tag">PyMC</span>
+              <span class="tag">PyOD</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.7 8 13 13.7l-3-3L7 13.7"/></svg>
+            </div>
+            <h3>Machine Learning</h3>
+            <div class="tag-list">
+              <span class="tag">Supervised &amp; Unsupervised Learning</span>
+              <span class="tag">Bayesian Modeling</span>
+              <span class="tag">Time-Series</span>
+              <span class="tag">A/B Testing</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 1 4 4c0 1.5-.8 2.8-2 3.5V12h2a4 4 0 0 1 4 4v1"/><path d="M12 2a4 4 0 0 0-4 4c0 1.5.8 2.8 2 3.5V12H8a4 4 0 0 0-4 4v1"/><path d="M9 21h6"/><path d="M10 17h4v4h-4z"/></svg>
+            </div>
+            <h3>Generative AI &amp; LLMs</h3>
+            <div class="tag-list">
+              <span class="tag">RAG (OpenSearch)</span>
+              <span class="tag">Agentic AI</span>
+              <span class="tag">Amazon Comprehend</span>
+              <span class="tag">OpenAI Eval</span>
+              <span class="tag">LLM-as-Judge</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+            </div>
+            <h3>Cloud &amp; MLOps</h3>
+            <div class="tag-list">
+              <span class="tag">AWS SageMaker</span>
+              <span class="tag">ECS</span>
+              <span class="tag">Lambda</span>
+              <span class="tag">Kubernetes</span>
+              <span class="tag">Spinnaker</span>
+              <span class="tag">Jenkins</span>
+              <span class="tag">CloudFormation</span>
+              <span class="tag">Terraform</span>
+              <span class="tag">MLflow</span>
+              <span class="tag">Optuna</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            </div>
+            <h3>Distributed Computing</h3>
+            <div class="tag-list">
+              <span class="tag">Databricks</span>
+              <span class="tag">Amazon Bedrock</span>
+              <span class="tag">PySpark</span>
+              <span class="tag">AWS Glue ETL</span>
+              <span class="tag">Kafka</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+            <h3>Explainability</h3>
+            <div class="tag-list">
+              <span class="tag">SHAP</span>
+              <span class="tag">LIME</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <h3>Monitoring &amp; Observability</h3>
+            <div class="tag-list">
+              <span class="tag">CloudWatch</span>
+              <span class="tag">Splunk</span>
+              <span class="tag">Grafana</span>
+              <span class="tag">Dynatrace</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Experience</span>
+          <h2>Where I've Worked</h2>
+          <p>Nearly two decades building software, infrastructure, and — most recently — ML &amp; GenAI systems.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-card">
+              <div class="role-row">
+                <h3>Vice President, Machine Learning Engineer</h3>
+                <span class="period">Aug 2019 &ndash; Present</span>
+              </div>
+              <div class="company">JPMorgan Chase &middot; Delaware</div>
+              <ul>
+                <li>Engineered a machine learning-based Observability Scoring Model for application SEALs — analogous to a FICO credit score — synthesizing operational signals (farm breaks, incident counts, alert volumes, outages, APM coverage) into a unified score to drive data-informed budgeting decisions.</li>
+                <li>Developed an agentic GenAI solution for automated validation using a time-aware RAG architecture with temporal reranking, freshness-aware retrieval, fine-tuned domain-specific models, and an LLM-as-judge evaluation framework, served through Amazon Bedrock.</li>
+                <li>Architected and deployed batch serving pipelines for large-scale model inference using PySpark and Amazon EMR for distributed data processing.</li>
+                <li>Engineered and deployed scalable, containerized ML inference microservices using Amazon ECS and Fargate, reducing prediction latency by 15%.</li>
+              </ul>
+              <div class="more-items" id="exp-jpmc-more">
+                <ul>
+                  <li>Work with business and product teams to establish KPIs and SLOs for ML applications to detect data drift and prevent model performance degradation in production.</li>
+                  <li>Conduct exploratory data analysis and discovery on raw data sources, incorporating business context to support model development.</li>
+                  <li>Collaborate closely with data scientists to validate model-ready datasets and ensure thorough, accurate feature documentation.</li>
+                  <li>Orchestrated end-to-end scalable ML pipelines within AWS SageMaker, leveraging MLflow for experiment tracking and reproducibility of feature set transformations.</li>
+                  <li>Develop and maintain model monitoring scripts, investigate alerts, and coordinate timely resolutions.</li>
+                  <li>Engineered a high-impact AIOps solution using hybrid ML to analyze Splunk and Dynatrace tracing logs, accurately identifying and localizing application anomalies across connected microservices.</li>
+                  <li>Architected and implemented a secure, enterprise-grade RAG pipeline that ingested proprietary best-practice code from Git, custom-indexing the data to ground an internal Copilot (MCP server) and enforce application-specific resiliency patterns.</li>
+                </ul>
+              </div>
+              <button class="toggle-more" data-target="exp-jpmc-more">
+                <span class="label">Show more</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-card">
+              <div class="role-row">
+                <h3>Lead Engineer</h3>
+                <span class="period">Mar 2018 &ndash; Aug 2019</span>
+              </div>
+              <div class="company">Barclays &middot; Delaware</div>
+              <ul>
+                <li>Part of the Cloud Engineering team responsible for migrating Partnership Credit Cards (Uber, JetBlue, etc.) to Red Hat OpenShift Cloud.</li>
+                <li>Collaborated with cross-functional teams — database, telecom, packaging — to resolve issues during project development and release.</li>
+                <li>Provided technical expertise to the product team, estimating and allocating resources for new features and functionality.</li>
+              </ul>
+              <div class="more-items" id="exp-barclays-more">
+                <ul>
+                  <li>Led ongoing meetings to introduce and answer aPaaS questions, covering application migration considerations and options.</li>
+                  <li>Coordinated with channel teams and third parties to resolve issues calling business APIs.</li>
+                  <li>Packaged and delivered artifacts to QA; configured Maven (pom.xml) for continuous integration.</li>
+                  <li>Planned, scheduled, and documented releases at code freeze periods — sole owner of the Release/Change Control process.</li>
+                  <li>Automated builds using Maven and Ant, with nightly builds scheduled via Hudson/Jenkins.</li>
+                </ul>
+              </div>
+              <button class="toggle-more" data-target="exp-barclays-more">
+                <span class="label">Show more</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-card">
+              <div class="role-row">
+                <h3>Sr. DevOps Engineer</h3>
+                <span class="period">Mar 2013 &ndash; Mar 2018</span>
+              </div>
+              <div class="company">Vanguard &middot; Pennsylvania</div>
+              <ul>
+                <li>Part of the DevOps team supporting all applications across the Retail Division.</li>
+                <li>Headed an effort across multiple teams to streamline the CI/CD pipeline, reducing build and deployment times from days to minutes.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-card">
+              <div class="role-row">
+                <h3>Sr. Software Engineer</h3>
+                <span class="period">Apr 2010 &ndash; Feb 2013</span>
+              </div>
+              <div class="company">Altisource &middot; India</div>
+              <ul>
+                <li>Led gohoming.com (a Zillow competitor) from design through deployment.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-card">
+              <div class="role-row">
+                <h3>Software Developer</h3>
+                <span class="period">Aug 2004 &ndash; Apr 2010</span>
+              </div>
+              <div class="company">Hewlett Packard (HP) &middot; India</div>
+              <ul>
+                <li>Built and maintained various mission-critical e-commerce based applications.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications / Education -->
+    <section id="certifications">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Certifications &amp; Education</span>
+          <h2>Continuous Learning</h2>
+        </div>
+
+        <div class="cert-grid">
+          <div class="cert-card reveal">
+            <div class="icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div>
+              <h3>M.S. in Machine Learning &amp; Data Science</h3>
+              <div class="org">Bellevue University, NE</div>
+              <div class="period">2024 &ndash; 2026</div>
+            </div>
+          </div>
+
+          <div class="cert-card reveal">
+            <div class="icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div>
+              <h3>Bachelor of Engineering</h3>
+              <div class="org">BMS College of Engineering, India</div>
+              <div class="period">Completed</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Projects</span>
+          <h2>ML Capstone Work</h2>
+          <p>A sample of applied machine learning projects spanning prediction, ensembling, and explainability.</p>
+        </div>
+
+        <div class="project-grid">
+          <div class="project-card reveal">
+            <span class="tag-pill">Regression</span>
+            <h3>BigMart Sales Prediction</h3>
+            <p>End-to-end regression pipeline forecasting retail sales across BigMart outlets, covering feature engineering, model selection, and outlier detection with PyOD.</p>
+            <a class="project-link" href="https://github.com/rajukan/ml-capstones/blob/main/bigmart/Big-mart-sales-prediction.ipynb" target="_blank" rel="noopener">
+              View Notebook
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+
+          <div class="project-card reveal">
+            <span class="tag-pill">Ensemble Learning</span>
+            <h3>Diabetes Ensemble Model</h3>
+            <p>Ensemble-based diagnosis of diabetes combining multiple classifiers to improve predictive accuracy and robustness over single-model baselines.</p>
+            <a class="project-link" href="https://github.com/rajukan/ml-capstones/blob/main/diabetes-ensemble/gyan-capstone-1-ensembles.ipynb" target="_blank" rel="noopener">
+              View Notebook
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+
+          <div class="project-card reveal">
+            <span class="tag-pill">Explainability</span>
+            <h3>Heart Disease Explainability</h3>
+            <p>Heart disease risk prediction paired with SHAP and LIME explainability to make model decisions transparent and clinically interpretable.</p>
+            <a class="project-link" href="https://github.com/rajukan/ml-capstones/blob/main/heart-prediction-explainability/dsc-680-heart_disease_prediction.ipynb" target="_blank" rel="noopener">
+              View Notebook
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="contact-box reveal">
+          <h2>Let's build something great together</h2>
+          <p>
+            Open to conversations about Machine Learning, Generative AI, and MLOps. Feel free to reach out
+            for collaboration, opportunities, or just to talk shop.
+          </p>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:gyan.raju@gmail.com">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              gyan.raju@gmail.com
+            </a>
+          </div>
+          <div class="contact-links">
+            <a class="social-btn" href="https://github.com/rajukan" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.9.57.1.78-.25.78-.55v-2.1c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.29-1.68-1.29-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.2 1.78 1.2 1.04 1.77 2.72 1.26 3.38.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.58.23 2.75.11 3.04.74.8 1.18 1.83 1.18 3.08 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.08.78 2.18v3.24c0 .3.21.66.79.55A11.5 11.5 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5z"/></svg>
+            </a>
+            <a class="social-btn" href="https://www.linkedin.com/in/gyan-kannur-0476505/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Gyan Kannur. Built with HTML, CSS &amp; JS &middot; Hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
